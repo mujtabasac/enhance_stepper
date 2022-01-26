@@ -8,10 +8,8 @@
 
 // add enum  HorizontalTitlePosition and enum  HorizontalLinePosition. circleChild replace by icon.
 
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
 
 /// Defines the [Stepper]'s titles position when the type is [StepperType.horizontal].
 enum HorizontalTitlePosition {
@@ -819,7 +817,7 @@ class _EnhanceStepperState extends State<EnhanceStepper>
       children: <Widget>[
         Material(
           color: widget.backgroundColor ?? Colors.white,
-          elevation: widget.elevation ?? 2.0,
+          elevation: 0,
           child: Container(
             margin: const EdgeInsets.symmetric(horizontal: 24.0),
             child: Row(
